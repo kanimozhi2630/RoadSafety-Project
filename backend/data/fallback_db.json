@@ -1,0 +1,793 @@
+{
+  "users": [
+    {
+      "_id": "6a174e9e005069c7590f3bac",
+      "name": "kani",
+      "email": "kani@gmail.com",
+      "password": "$2a$10$k3miPqfX.aENJ1hdZNO/L.lhOyRRZMNzviXLgZtZT6P4PL7NkSWA6",
+      "mobile": "6383365448",
+      "onboardingStep": 3,
+      "isOnboarded": true,
+      "emergencyContact1": "9360306340",
+      "relationship1": "friend",
+      "emergencyContact2": "7418161428",
+      "relationship2": "friend",
+      "bloodGroup": "AB+",
+      "allergies": "none",
+      "medicalNotes": "none",
+      "vehicleType": "Car",
+      "vehicleModel": "Tesla",
+      "vehicleColor": "black",
+      "plateNumber": "TN-30-kdf",
+      "age": "19",
+      "gender": "Female",
+      "licenseNumber": "DL-3498",
+      "profilePicture": "",
+      "createdAt": "2026-05-27T20:05:50.860Z"
+    }
+  ],
+  "vehicles": [],
+  "telemetryLogs": [],
+  "riskLogs": [
+    {
+      "_id": "6a1750052ecc335814c1cd37",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 45,
+      "riskBreakdown": {
+        "rain": 0,
+        "fatigue": 100,
+        "overspeed": 0,
+        "roadStability": 21,
+        "steeringInstability": 49
+      },
+      "prediction": "MODERATE HAZARD DETECTED",
+      "warnings": [
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest."
+      ],
+      "timestamp": "2026-05-27T20:11:49.319Z"
+    },
+    {
+      "_id": "6a17500ac9939d326c3be297",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 50,
+      "riskBreakdown": {
+        "rain": 0,
+        "fatigue": 100,
+        "overspeed": 0,
+        "roadStability": 100,
+        "steeringInstability": 1
+      },
+      "prediction": "MODERATE HAZARD DETECTED",
+      "warnings": [
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest.",
+        "Road Hazard: Severe road surface vibrations detected."
+      ],
+      "timestamp": "2026-05-27T20:11:54.316Z"
+    },
+    {
+      "_id": "6a175015cdd4021e67cf0f3c",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 41,
+      "riskBreakdown": {
+        "rain": 0,
+        "fatigue": 100,
+        "overspeed": 0,
+        "roadStability": 22,
+        "steeringInstability": 16
+      },
+      "prediction": "MODERATE HAZARD DETECTED",
+      "warnings": [
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest."
+      ],
+      "timestamp": "2026-05-27T20:12:05.318Z"
+    },
+    {
+      "_id": "6a17501bd64763f9b79bea3b",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 40,
+      "riskBreakdown": {
+        "rain": 0,
+        "fatigue": 100,
+        "overspeed": 0,
+        "roadStability": 20,
+        "steeringInstability": 13
+      },
+      "prediction": "MODERATE HAZARD DETECTED",
+      "warnings": [
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest."
+      ],
+      "timestamp": "2026-05-27T20:12:11.317Z"
+    },
+    {
+      "_id": "6a175020efa3b724cd5a200f",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 59,
+      "riskBreakdown": {
+        "rain": 0,
+        "fatigue": 100,
+        "overspeed": 0,
+        "roadStability": 100,
+        "steeringInstability": 58
+      },
+      "prediction": "MODERATE HAZARD DETECTED",
+      "warnings": [
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest.",
+        "Road Hazard: Severe road surface vibrations detected."
+      ],
+      "timestamp": "2026-05-27T20:12:16.321Z"
+    },
+    {
+      "_id": "6a175025e19954fabdf18a82",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 44,
+      "riskBreakdown": {
+        "rain": 0,
+        "fatigue": 100,
+        "overspeed": 0,
+        "roadStability": 26,
+        "steeringInstability": 31
+      },
+      "prediction": "MODERATE HAZARD DETECTED",
+      "warnings": [
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest."
+      ],
+      "timestamp": "2026-05-27T20:12:21.319Z"
+    },
+    {
+      "_id": "6a17502a2f3270bfe57b9c4d",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 53,
+      "riskBreakdown": {
+        "rain": 0,
+        "fatigue": 100,
+        "overspeed": 0,
+        "roadStability": 100,
+        "steeringInstability": 22
+      },
+      "prediction": "MODERATE HAZARD DETECTED",
+      "warnings": [
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest.",
+        "Road Hazard: Severe road surface vibrations detected."
+      ],
+      "timestamp": "2026-05-27T20:12:26.313Z"
+    },
+    {
+      "_id": "6a17503085fcb464df0dea91",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 56,
+      "riskBreakdown": {
+        "rain": 0,
+        "fatigue": 100,
+        "overspeed": 0,
+        "roadStability": 100,
+        "steeringInstability": 38
+      },
+      "prediction": "MODERATE HAZARD DETECTED",
+      "warnings": [
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest.",
+        "Road Hazard: Severe road surface vibrations detected."
+      ],
+      "timestamp": "2026-05-27T20:12:32.320Z"
+    },
+    {
+      "_id": "6a1750371c759bd46584de49",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 44,
+      "riskBreakdown": {
+        "rain": 0,
+        "fatigue": 100,
+        "overspeed": 0,
+        "roadStability": 23,
+        "steeringInstability": 39
+      },
+      "prediction": "MODERATE HAZARD DETECTED",
+      "warnings": [
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest."
+      ],
+      "timestamp": "2026-05-27T20:12:39.315Z"
+    },
+    {
+      "_id": "6a175043473003e8ec7df784",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 43,
+      "riskBreakdown": {
+        "rain": 0,
+        "fatigue": 100,
+        "overspeed": 0,
+        "roadStability": 26,
+        "steeringInstability": 27
+      },
+      "prediction": "MODERATE HAZARD DETECTED",
+      "warnings": [
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest."
+      ],
+      "timestamp": "2026-05-27T20:12:51.317Z"
+    },
+    {
+      "_id": "6a175048295d61f166c1d8b9",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 57,
+      "riskBreakdown": {
+        "rain": 0,
+        "fatigue": 100,
+        "overspeed": 0,
+        "roadStability": 100,
+        "steeringInstability": 48
+      },
+      "prediction": "MODERATE HAZARD DETECTED",
+      "warnings": [
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest.",
+        "Road Hazard: Severe road surface vibrations detected."
+      ],
+      "timestamp": "2026-05-27T20:12:56.317Z"
+    },
+    {
+      "_id": "6a17505083fc60e97faa50c8",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 53,
+      "riskBreakdown": {
+        "rain": 0,
+        "fatigue": 100,
+        "overspeed": 0,
+        "roadStability": 100,
+        "steeringInstability": 19
+      },
+      "prediction": "MODERATE HAZARD DETECTED",
+      "warnings": [
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest.",
+        "Road Hazard: Severe road surface vibrations detected."
+      ],
+      "timestamp": "2026-05-27T20:13:04.315Z"
+    },
+    {
+      "_id": "6a175055381b36c5937a6225",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 42,
+      "riskBreakdown": {
+        "rain": 0,
+        "fatigue": 100,
+        "overspeed": 0,
+        "roadStability": 21,
+        "steeringInstability": 26
+      },
+      "prediction": "MODERATE HAZARD DETECTED",
+      "warnings": [
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest."
+      ],
+      "timestamp": "2026-05-27T20:13:09.318Z"
+    },
+    {
+      "_id": "6a17506601d32652d4abab31",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 51,
+      "riskBreakdown": {
+        "rain": 0,
+        "fatigue": 100,
+        "overspeed": 0,
+        "roadStability": 100,
+        "steeringInstability": 8
+      },
+      "prediction": "MODERATE HAZARD DETECTED",
+      "warnings": [
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest.",
+        "Road Hazard: Severe road surface vibrations detected."
+      ],
+      "timestamp": "2026-05-27T20:13:26.315Z"
+    },
+    {
+      "_id": "6a17506e923ecb77f26b1b32",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 52,
+      "riskBreakdown": {
+        "rain": 0,
+        "fatigue": 100,
+        "overspeed": 0,
+        "roadStability": 100,
+        "steeringInstability": 10
+      },
+      "prediction": "MODERATE HAZARD DETECTED",
+      "warnings": [
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest.",
+        "Road Hazard: Severe road surface vibrations detected."
+      ],
+      "timestamp": "2026-05-27T20:13:34.314Z"
+    },
+    {
+      "_id": "6a175075dd20187796bfbe1a",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 47,
+      "riskBreakdown": {
+        "rain": 0,
+        "fatigue": 100,
+        "overspeed": 0,
+        "roadStability": 23,
+        "steeringInstability": 57
+      },
+      "prediction": "MODERATE HAZARD DETECTED",
+      "warnings": [
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest."
+      ],
+      "timestamp": "2026-05-27T20:13:41.313Z"
+    },
+    {
+      "_id": "6a17507b3fc091de2cb156f0",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 46,
+      "riskBreakdown": {
+        "rain": 0,
+        "fatigue": 100,
+        "overspeed": 0,
+        "roadStability": 24,
+        "steeringInstability": 51
+      },
+      "prediction": "MODERATE HAZARD DETECTED",
+      "warnings": [
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest."
+      ],
+      "timestamp": "2026-05-27T20:13:47.317Z"
+    },
+    {
+      "_id": "6a175082a3413896aec435fd",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 56,
+      "riskBreakdown": {
+        "rain": 0,
+        "fatigue": 100,
+        "overspeed": 0,
+        "roadStability": 100,
+        "steeringInstability": 43
+      },
+      "prediction": "MODERATE HAZARD DETECTED",
+      "warnings": [
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest.",
+        "Road Hazard: Severe road surface vibrations detected."
+      ],
+      "timestamp": "2026-05-27T20:13:54.357Z"
+    },
+    {
+      "_id": "6a17508bff971e0eb358c395",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 42,
+      "riskBreakdown": {
+        "rain": 0,
+        "fatigue": 100,
+        "overspeed": 0,
+        "roadStability": 20,
+        "steeringInstability": 25
+      },
+      "prediction": "MODERATE HAZARD DETECTED",
+      "warnings": [
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest."
+      ],
+      "timestamp": "2026-05-27T20:14:03.348Z"
+    },
+    {
+      "_id": "6a17509478d15670eaf1e656",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 55,
+      "riskBreakdown": {
+        "rain": 0,
+        "fatigue": 100,
+        "overspeed": 0,
+        "roadStability": 100,
+        "steeringInstability": 31
+      },
+      "prediction": "MODERATE HAZARD DETECTED",
+      "warnings": [
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest.",
+        "Road Hazard: Severe road surface vibrations detected."
+      ],
+      "timestamp": "2026-05-27T20:14:12.315Z"
+    },
+    {
+      "_id": "6a17509980f9bae451c5eeb8",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 40,
+      "riskBreakdown": {
+        "rain": 0,
+        "fatigue": 100,
+        "overspeed": 0,
+        "roadStability": 22,
+        "steeringInstability": 10
+      },
+      "prediction": "MODERATE HAZARD DETECTED",
+      "warnings": [
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest."
+      ],
+      "timestamp": "2026-05-27T20:14:17.315Z"
+    },
+    {
+      "_id": "6a17509f57245f11aa5f07aa",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 44,
+      "riskBreakdown": {
+        "rain": 0,
+        "fatigue": 100,
+        "overspeed": 0,
+        "roadStability": 24,
+        "steeringInstability": 39
+      },
+      "prediction": "MODERATE HAZARD DETECTED",
+      "warnings": [
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest."
+      ],
+      "timestamp": "2026-05-27T20:14:23.320Z"
+    },
+    {
+      "_id": "6a1750a7d8fcaf26e1993e68",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 43,
+      "riskBreakdown": {
+        "rain": 0,
+        "fatigue": 100,
+        "overspeed": 0,
+        "roadStability": 22,
+        "steeringInstability": 34
+      },
+      "prediction": "MODERATE HAZARD DETECTED",
+      "warnings": [
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest."
+      ],
+      "timestamp": "2026-05-27T20:14:31.317Z"
+    },
+    {
+      "_id": "6a1750acc974a2763299b0f9",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 50,
+      "riskBreakdown": {
+        "rain": 0,
+        "fatigue": 100,
+        "overspeed": 0,
+        "roadStability": 100,
+        "steeringInstability": 3
+      },
+      "prediction": "MODERATE HAZARD DETECTED",
+      "warnings": [
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest.",
+        "Road Hazard: Severe road surface vibrations detected."
+      ],
+      "timestamp": "2026-05-27T20:14:36.313Z"
+    },
+    {
+      "_id": "6a1750b1faac494ec10d2345",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 40,
+      "riskBreakdown": {
+        "rain": 0,
+        "fatigue": 100,
+        "overspeed": 0,
+        "roadStability": 20,
+        "steeringInstability": 11
+      },
+      "prediction": "MODERATE HAZARD DETECTED",
+      "warnings": [
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest."
+      ],
+      "timestamp": "2026-05-27T20:14:41.315Z"
+    },
+    {
+      "_id": "6a1750b6f3f196d1983c205c",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 52,
+      "riskBreakdown": {
+        "rain": 0,
+        "fatigue": 100,
+        "overspeed": 0,
+        "roadStability": 100,
+        "steeringInstability": 16
+      },
+      "prediction": "MODERATE HAZARD DETECTED",
+      "warnings": [
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest.",
+        "Road Hazard: Severe road surface vibrations detected."
+      ],
+      "timestamp": "2026-05-27T20:14:46.318Z"
+    },
+    {
+      "_id": "6a1750bc386d9aa619fa4699",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 55,
+      "riskBreakdown": {
+        "rain": 0,
+        "fatigue": 100,
+        "overspeed": 0,
+        "roadStability": 100,
+        "steeringInstability": 30
+      },
+      "prediction": "MODERATE HAZARD DETECTED",
+      "warnings": [
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest.",
+        "Road Hazard: Severe road surface vibrations detected."
+      ],
+      "timestamp": "2026-05-27T20:14:52.317Z"
+    },
+    {
+      "_id": "6a1750c1fd9b99b17d430806",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 41,
+      "riskBreakdown": {
+        "rain": 0,
+        "fatigue": 100,
+        "overspeed": 0,
+        "roadStability": 20,
+        "steeringInstability": 22
+      },
+      "prediction": "MODERATE HAZARD DETECTED",
+      "warnings": [
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest."
+      ],
+      "timestamp": "2026-05-27T20:14:57.318Z"
+    },
+    {
+      "_id": "6a1750cb42d49bfa66134f89",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 47,
+      "riskBreakdown": {
+        "rain": 0,
+        "fatigue": 100,
+        "overspeed": 0,
+        "roadStability": 22,
+        "steeringInstability": 58
+      },
+      "prediction": "MODERATE HAZARD DETECTED",
+      "warnings": [
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest."
+      ],
+      "timestamp": "2026-05-27T20:15:07.963Z"
+    },
+    {
+      "_id": "6a1750cc42d49bfa66134f8a",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 43,
+      "riskBreakdown": {
+        "rain": 0,
+        "fatigue": 100,
+        "overspeed": 0,
+        "roadStability": 20,
+        "steeringInstability": 35
+      },
+      "prediction": "MODERATE HAZARD DETECTED",
+      "warnings": [
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest."
+      ],
+      "timestamp": "2026-05-27T20:15:08.009Z"
+    },
+    {
+      "_id": "6a1750d275fc5212aa3f9052",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 52,
+      "riskBreakdown": {
+        "rain": 0,
+        "fatigue": 100,
+        "overspeed": 0,
+        "roadStability": 100,
+        "steeringInstability": 16
+      },
+      "prediction": "MODERATE HAZARD DETECTED",
+      "warnings": [
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest.",
+        "Road Hazard: Severe road surface vibrations detected."
+      ],
+      "timestamp": "2026-05-27T20:15:14.363Z"
+    },
+    {
+      "_id": "6a1750d7119df4310a02a491",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 43,
+      "riskBreakdown": {
+        "rain": 0,
+        "fatigue": 100,
+        "overspeed": 0,
+        "roadStability": 24,
+        "steeringInstability": 32
+      },
+      "prediction": "MODERATE HAZARD DETECTED",
+      "warnings": [
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest."
+      ],
+      "timestamp": "2026-05-27T20:15:19.314Z"
+    },
+    {
+      "_id": "6a1750debb923866b1e3fc7e",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 57,
+      "riskBreakdown": {
+        "rain": 0,
+        "fatigue": 100,
+        "overspeed": 0,
+        "roadStability": 100,
+        "steeringInstability": 44
+      },
+      "prediction": "MODERATE HAZARD DETECTED",
+      "warnings": [
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest.",
+        "Road Hazard: Severe road surface vibrations detected."
+      ],
+      "timestamp": "2026-05-27T20:15:26.315Z"
+    },
+    {
+      "_id": "6a1750e57c003111af2813c7",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 42,
+      "riskBreakdown": {
+        "rain": 0,
+        "fatigue": 100,
+        "overspeed": 0,
+        "roadStability": 21,
+        "steeringInstability": 25
+      },
+      "prediction": "MODERATE HAZARD DETECTED",
+      "warnings": [
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest."
+      ],
+      "timestamp": "2026-05-27T20:15:33.318Z"
+    },
+    {
+      "_id": "6a1750ec2849d769858bf85d",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 52,
+      "riskBreakdown": {
+        "rain": 0,
+        "fatigue": 100,
+        "overspeed": 0,
+        "roadStability": 100,
+        "steeringInstability": 11
+      },
+      "prediction": "MODERATE HAZARD DETECTED",
+      "warnings": [
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest.",
+        "Road Hazard: Severe road surface vibrations detected."
+      ],
+      "timestamp": "2026-05-27T20:15:40.314Z"
+    },
+    {
+      "_id": "6a1750f1fc47de61c9f8bad7",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 40,
+      "riskBreakdown": {
+        "rain": 0,
+        "fatigue": 100,
+        "overspeed": 0,
+        "roadStability": 26,
+        "steeringInstability": 6
+      },
+      "prediction": "MODERATE HAZARD DETECTED",
+      "warnings": [
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest."
+      ],
+      "timestamp": "2026-05-27T20:15:45.314Z"
+    },
+    {
+      "_id": "6a1750f71e6d35147a2a88c0",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 46,
+      "riskBreakdown": {
+        "rain": 0,
+        "fatigue": 100,
+        "overspeed": 0,
+        "roadStability": 26,
+        "steeringInstability": 50
+      },
+      "prediction": "MODERATE HAZARD DETECTED",
+      "warnings": [
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest."
+      ],
+      "timestamp": "2026-05-27T20:15:51.315Z"
+    },
+    {
+      "_id": "6a1750fe2cc603f36484bccc",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 58,
+      "riskBreakdown": {
+        "rain": 0,
+        "fatigue": 100,
+        "overspeed": 0,
+        "roadStability": 100,
+        "steeringInstability": 51
+      },
+      "prediction": "MODERATE HAZARD DETECTED",
+      "warnings": [
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest.",
+        "Road Hazard: Severe road surface vibrations detected."
+      ],
+      "timestamp": "2026-05-27T20:15:58.317Z"
+    },
+    {
+      "_id": "6a175104f9f2a1f6494f2bab",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 53,
+      "riskBreakdown": {
+        "rain": 0,
+        "fatigue": 100,
+        "overspeed": 0,
+        "roadStability": 100,
+        "steeringInstability": 18
+      },
+      "prediction": "MODERATE HAZARD DETECTED",
+      "warnings": [
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest.",
+        "Road Hazard: Severe road surface vibrations detected."
+      ],
+      "timestamp": "2026-05-27T20:16:04.316Z"
+    },
+    {
+      "_id": "6a175109055cfc0a2ba1c36d",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 40,
+      "riskBreakdown": {
+        "rain": 0,
+        "fatigue": 100,
+        "overspeed": 0,
+        "roadStability": 24,
+        "steeringInstability": 8
+      },
+      "prediction": "MODERATE HAZARD DETECTED",
+      "warnings": [
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest."
+      ],
+      "timestamp": "2026-05-27T20:16:09.316Z"
+    },
+    {
+      "_id": "6a1751117f167330fcb33ef5",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 46,
+      "riskBreakdown": {
+        "rain": 0,
+        "fatigue": 100,
+        "overspeed": 0,
+        "roadStability": 25,
+        "steeringInstability": 49
+      },
+      "prediction": "MODERATE HAZARD DETECTED",
+      "warnings": [
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest."
+      ],
+      "timestamp": "2026-05-27T20:16:17.313Z"
+    }
+  ],
+  "accidentLogs": [
+    {
+      "_id": "6a174f1c39a0febc921ab3bf",
+      "userId": "6a174e9e005069c7590f3bac",
+      "phase1Result": "NORMAL",
+      "phase2Result": "CRITICAL",
+      "impactForce": 0.11,
+      "tiltAngle": 0,
+      "movementStatus": "moving",
+      "eyeBlinkState": "normal",
+      "decisionReasoning": [
+        "Phase 1 reported NORMAL. Decision Tree short-circuits. No crash verified."
+      ],
+      "telemetrySnapshot": {
+        "speed": 69,
+        "steeringAngle": -2.18,
+        "brakeIntensity": 4,
+        "vibration": 0.11,
+        "deceleration": 15
+      },
+      "timestamp": "2026-05-27T20:07:56.830Z"
+    },
+    {
+      "_id": "6a174f2376515bbff8bca2bc",
+      "userId": "6a174e9e005069c7590f3bac",
+      "phase1Result": "NORMAL",
+      "phase2Result": "CRITICAL",
+      "impactForce": 0.18,
+      "tiltAngle": -1,
+      "movementStatus": "moving",
+      "eyeBlinkState": "normal",
+      "decisionReasoning": [
+        "Phase 1 reported NORMAL. Decision Tree short-circuits. No crash verified."
+      ],
+      "telemetrySnapshot": {
+        "speed": 82,
+        "steeringAngle": -2.68,
+        "brakeIntensity": 1,
+        "vibration": 0.18,
+        "deceleration": 16
+      },
+      "timestamp": "2026-05-27T20:08:03.705Z"
+    }
+  ],
+  "emergencyLogs": []
+}
