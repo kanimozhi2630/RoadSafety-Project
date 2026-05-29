@@ -144,9 +144,9 @@ const Home = () => {
             <div className="absolute inset-0 pointer-events-none radar-sweep-bg" />
 
             {/* Vehicle Dot centered */}
-            <div className="absolute bottom-16 left-1/2 transform -translate-x-1/2 flex flex-col items-center justify-center bg-lifelink-green/10 p-4 rounded-full border border-lifelink-green/20 shadow-md">
-              <Cpu className="w-8 h-8 text-lifelink-green animate-pulse" />
-              <span className="bg-gray-800 text-white text-[8px] font-bold px-1.5 py-0.5 rounded shadow mt-1">LIFELINK V2.0</span>
+            <div className="absolute bottom-16 left-1/2 transform -translate-x-1/2 flex flex-col items-center justify-center bg-white/95 p-3.5 rounded-full border border-gray-100 shadow-lg w-20 h-20">
+              <img src="/logo.png" alt="IntelSOS Logo" className="w-10 h-10 object-contain animate-pulse" />
+              <span className="bg-gray-900 text-white text-[8px] font-black px-1.5 py-0.5 rounded shadow mt-1 whitespace-nowrap">IntelSOS</span>
             </div>
           </div>
         </section>
