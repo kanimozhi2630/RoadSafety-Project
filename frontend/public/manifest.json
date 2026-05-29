@@ -1,0 +1,24 @@
+{
+  "name": "IntelSOS — AI Emergency Platform",
+  "short_name": "IntelSOS",
+  "description": "AI-Powered Smart Transportation Emergency Management Platform",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F9FAFB",
+  "theme_color": "#16A34A",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

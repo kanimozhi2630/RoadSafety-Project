@@ -66,10 +66,10 @@ const Home = () => {
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col justify-between">
       {/* Sticky Header Navbar */}
-      <header className="h-16 bg-white/80 backdrop-blur-md border-b border-gray-100 flex items-center justify-between px-6 md:px-12 sticky top-0 z-40 shadow-sm">
+      <header className="h-14 md:h-16 bg-white/80 backdrop-blur-md border-b border-gray-100 flex items-center justify-between px-4 md:px-6 lg:px-12 sticky top-0 z-40 shadow-sm">
         <div className="flex items-center space-x-2.5">
-          <img src="/logo.png" alt="IntelSOS Logo" className="h-9 w-auto object-contain" />
-          <span className="font-extrabold text-xl text-gray-900 tracking-tight">IntelSOS</span>
+          <img src="/logo.png" alt="IntelSOS Logo" className="h-7 md:h-9 w-auto object-contain" />
+          <span className="font-extrabold text-lg md:text-xl text-gray-900 tracking-tight">IntelSOS</span>
         </div>
 
         <nav className="hidden md:flex items-center space-x-8 text-xs font-bold text-gray-500 uppercase tracking-widest">
@@ -79,16 +79,16 @@ const Home = () => {
           <a href="#about" className="hover:text-gray-900 transition-colors">About Us</a>
         </nav>
 
-        <div className="flex items-center space-x-3">
+        <div className="flex items-center space-x-2 md:space-x-3">
           <Link 
             to="/login" 
-            className="text-xs font-bold text-gray-600 hover:text-gray-900 border border-gray-200 px-4 py-2 rounded-xl transition-all"
+            className="text-[10px] md:text-xs font-bold text-gray-600 hover:text-gray-900 border border-gray-200 px-3 md:px-4 py-1.5 md:py-2 rounded-xl transition-all"
           >
             Sign In
           </Link>
           <Link 
             to="/register" 
-            className="bg-lifelink-green hover:bg-green-700 text-white text-xs font-bold px-4 py-2 rounded-xl transition-all shadow-md shadow-green-100"
+            className="bg-lifelink-green hover:bg-green-700 text-white text-[10px] md:text-xs font-bold px-3 md:px-4 py-1.5 md:py-2 rounded-xl transition-all shadow-md shadow-green-100"
           >
             Get Started
           </Link>
@@ -98,20 +98,20 @@ const Home = () => {
       {/* Main Sections Wrapper */}
       <main className="flex-1">
         {/* HERO SECTION */}
-        <section className="px-6 md:px-12 py-16 md:py-24 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <section className="px-4 md:px-6 lg:px-12 py-10 md:py-16 lg:py-24 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center">
           <div className="space-y-6">
             <div className="inline-flex items-center space-x-1.5 bg-green-50 border border-green-100 px-3 py-1 rounded-full text-lifelink-green text-[10px] font-bold uppercase tracking-wider animate-pulse">
               <span className="w-1.5 h-1.5 bg-lifelink-green rounded-full" />
               <span>Smart Transportation Intelligence</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-black text-gray-900 leading-none tracking-tight">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-black text-gray-900 leading-none tracking-tight">
               The Golden Minute Saves Lives.<br />
               <span className="text-lifelink-green">IntelSOS Assures It.</span>
             </h1>
-            <p className="text-sm md:text-base text-gray-500 max-w-lg leading-relaxed font-medium">
+            <p className="text-xs md:text-sm lg:text-base text-gray-500 max-w-lg leading-relaxed font-medium">
               An AI-powered emergency management ecosystem connecting vehicle sensors to paramedic trauma networks. Predicting risks, verifying impacts, and automating dispatches in milliseconds.
             </p>
-            <div className="flex items-center space-x-4">
+            <div className="flex flex-col sm:flex-row items-stretch sm:items-center space-y-3 sm:space-y-0 sm:space-x-4">
               <Link 
                 to="/register" 
                 className="bg-lifelink-green hover:bg-green-700 text-white text-xs font-bold px-6 py-3 rounded-xl transition-all shadow-lg shadow-green-100 flex items-center gap-1.5"
@@ -129,7 +129,7 @@ const Home = () => {
           </div>
 
           {/* Hero Premium SVG Visualization (Tesla-style Autopilot Radar Sweep) */}
-          <div className="relative w-full h-[320px] rounded-2xl overflow-hidden border border-gray-100 bg-[#E5E7EB] flex items-center justify-center shadow-lg">
+          <div className="relative w-full h-[240px] md:h-[320px] rounded-2xl overflow-hidden border border-gray-100 bg-[#E5E7EB] flex items-center justify-center shadow-lg">
             {/* Animated SVG highway */}
             <svg className="absolute inset-0 w-full h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" preserveAspectRatio="none">
               <rect x="120" y="0" width="160" height="320" fill="#374151" />
@@ -152,7 +152,7 @@ const Home = () => {
         </section>
 
         {/* FEATURES GRID SECTION */}
-        <section id="features" className="bg-white border-y border-gray-100 py-20 px-6 md:px-12">
+        <section id="features" className="bg-white border-y border-gray-100 py-12 md:py-20 px-4 md:px-6 lg:px-12">
           <div className="max-w-7xl mx-auto space-y-12">
             <div className="text-center max-w-xl mx-auto space-y-3">
               <span className="text-[10px] font-bold text-lifelink-green uppercase tracking-widest">ECOSYSTEM MATRIX</span>
@@ -182,7 +182,7 @@ const Home = () => {
         </section>
 
         {/* TIMELINE WORKFLOW SECTION */}
-        <section id="workflow" className="py-20 px-6 md:px-12 max-w-7xl mx-auto space-y-16">
+        <section id="workflow" className="py-12 md:py-20 px-4 md:px-6 lg:px-12 max-w-7xl mx-auto space-y-10 md:space-y-16">
           <div className="text-center max-w-xl mx-auto space-y-3">
             <span className="text-[10px] font-bold text-lifelink-green uppercase tracking-widest">OPERATIONAL PROTOCOL</span>
             <h2 className="text-2xl md:text-3xl font-black text-gray-900 leading-none">
@@ -216,7 +216,7 @@ const Home = () => {
         </section>
 
         {/* ABOUT US SECTION */}
-        <section id="about" className="bg-white border-t border-gray-100 py-20 px-6 md:px-12">
+        <section id="about" className="bg-white border-t border-gray-100 py-12 md:py-20 px-4 md:px-6 lg:px-12">
           <div className="max-w-7xl mx-auto space-y-12">
             <div className="text-center max-w-xl mx-auto space-y-3">
               <span className="text-[10px] font-bold text-lifelink-green uppercase tracking-widest">ABOUT INTELSOS</span>
@@ -274,7 +274,7 @@ const Home = () => {
       </main>
 
       {/* FOOTER */}
-      <footer className="bg-white border-t border-gray-100 py-12 px-6 md:px-12">
+      <footer className="bg-white border-t border-gray-100 py-8 md:py-12 px-4 md:px-6 lg:px-12">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center space-x-2.5">
             <img src="/logo.png" alt="IntelSOS Logo" className="h-8 w-auto object-contain" />

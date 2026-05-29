@@ -38,7 +38,7 @@ const connectDB = async () => {
     await mongoose.connect(mongoUri, {
       serverSelectionTimeoutMS: 3000
     });
-    console.log('✅ MongoDB Connected — LifeLink Database Active');
+    console.log('✅ MongoDB Connected — IntelSOS Database Active');
     isFallbackMode = false;
   } catch (err) {
     console.warn('⚠️  MongoDB Connection Failed — Activating Local JSON Fallback');

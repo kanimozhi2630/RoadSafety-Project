@@ -23,10 +23,10 @@ exports.sendEmergencySMS = async (contacts, emergencyData) => {
   
   // Format the emergency message
   const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${gpsLat},${gpsLng}`;
-  const messageBody = `🚨 LIFELINK EMERGENCY ALERT 🚨\n\nYour contact ${userName} has been involved in a ${severity} accident. \n\nDetails:\n- Vehicle State: ${vehicleStatus || 'Impact Detected'}\n- GPS Location: ${gpsLat.toFixed(5)}, ${gpsLng.toFixed(5)}\n- Live Tracking Link: ${googleMapsUrl}\n\nEmergency services have been alerted. Please try calling them immediately.`;
+  const messageBody = `🚨 INTELSOS EMERGENCY ALERT 🚨\n\nYour contact ${userName} has been involved in a ${severity} accident. \n\nDetails:\n- Vehicle State: ${vehicleStatus || 'Impact Detected'}\n- GPS Location: ${gpsLat.toFixed(5)}, ${gpsLng.toFixed(5)}\n- Live Tracking Link: ${googleMapsUrl}\n\nEmergency services have been alerted. Please try calling them immediately.`;
 
   console.log('--------------------------------------------------');
-  console.log('✉️  LIFELINK EMERGENCY SMS OUTBOUND DISPATCH');
+  console.log('✉️  INTELSOS EMERGENCY SMS OUTBOUND DISPATCH');
   console.log(`To Contacts: ${contacts.map(c => `${c.name} (${c.phone})`).join(', ')}`);
   console.log(`Message Content:\n${messageBody}`);
   console.log('--------------------------------------------------');

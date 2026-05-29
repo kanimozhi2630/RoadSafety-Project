@@ -233,7 +233,7 @@ const VehicleTelemetry = () => {
   };
 
   return (
-    <div className="bg-white border border-gray-100 rounded-xl shadow-premium p-5 flex flex-col justify-between h-[380px] overflow-hidden relative">
+    <div className="bg-white border border-gray-100 rounded-xl shadow-premium p-3 md:p-5 flex flex-col justify-between h-[300px] md:h-[380px] overflow-hidden relative">
       
       {/* Self-contained CSS Keyframes for High-Performance Animation rendering */}
       <style>{`
@@ -248,38 +248,38 @@ const VehicleTelemetry = () => {
       `}</style>
 
       {/* Header and status banner */}
-      <div className="flex items-center justify-between z-10">
+      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between z-10 gap-2">
         <div>
-          <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest block">TELEMETRY CANVAS</span>
-          <h3 className="text-sm font-extrabold text-gray-800 flex items-center gap-1.5 mt-0.5">
-            <Compass className="w-4 h-4 text-lifelink-green" />
+          <span className="text-[9px] md:text-[10px] font-bold text-gray-400 uppercase tracking-widest block">TELEMETRY CANVAS</span>
+          <h3 className="text-xs md:text-sm font-extrabold text-gray-800 flex items-center gap-1.5 mt-0.5">
+            <Compass className="w-3.5 h-3.5 md:w-4 md:h-4 text-lifelink-green" />
             Autopilot Navigation Array
           </h3>
         </div>
-        <div className={`flex items-center space-x-2 border px-3 py-1.5 rounded-lg transition-all ${getStatusColorClass()}`}>
-          <span className="text-[9px] font-bold uppercase tracking-wider opacity-85">SYSTEM STATUS</span>
-          <span className="font-extrabold text-xs tracking-tight">
+        <div className={`flex items-center space-x-1.5 md:space-x-2 border px-2 md:px-3 py-1 md:py-1.5 rounded-lg transition-all text-[8px] md:text-[9px] ${getStatusColorClass()}`}>
+          <span className="font-bold uppercase tracking-wider opacity-85 hidden sm:inline">STATUS</span>
+          <span className="font-extrabold text-[10px] md:text-xs tracking-tight">
             {systemStatus}
           </span>
         </div>
       </div>
 
       {/* Main road SVG canvas */}
-      <div className="relative w-full h-[230px] rounded-lg overflow-hidden border border-gray-100 bg-[#F3F4F6] mt-4 flex items-center justify-center">
+      <div className="relative w-full h-[160px] md:h-[230px] rounded-lg overflow-hidden border border-gray-100 bg-[#F3F4F6] mt-2 md:mt-4 flex items-center justify-center">
         {/* Base road canvas - Darkened dynamically based on rainCondition (Task 3) */}
         <div className="absolute inset-0 transition-colors duration-500" style={{ backgroundColor: getRoadColor() }} />
         
         {/* Left and Right Road Shoulders (Light grass) */}
-        <div className="absolute top-0 bottom-0 left-0 w-[100px] bg-[#F3F4F6]" />
-        <div className="absolute top-0 bottom-0 right-0 w-[100px] bg-[#F3F4F6]" />
+        <div className="absolute top-0 bottom-0 left-0 w-[40px] md:w-[100px] bg-[#F3F4F6]" />
+        <div className="absolute top-0 bottom-0 right-0 w-[40px] md:w-[100px] bg-[#F3F4F6]" />
         
         {/* Shoulder solid lines */}
-        <div className="absolute top-0 bottom-0 left-[100px] w-[2px] bg-gray-300" />
-        <div className="absolute top-0 bottom-0 right-[100px] w-[2px] bg-gray-300" />
+        <div className="absolute top-0 bottom-0 left-[40px] md:left-[100px] w-[2px] bg-gray-300" />
+        <div className="absolute top-0 bottom-0 right-[40px] md:right-[100px] w-[2px] bg-gray-300" />
 
         {/* Animated Scrolling Road Container (Simulating Forward Motion) */}
         <div 
-          className="absolute top-0 left-[102px] right-[102px] h-[460px]"
+          className="absolute top-0 left-[42px] md:left-[102px] right-[42px] md:right-[102px] h-[460px]"
           style={{ 
             animation: currentSpeed > 5 ? `roadScrollLocal ${laneAnimDuration} linear infinite` : 'none'
           }}
@@ -355,14 +355,14 @@ const VehicleTelemetry = () => {
         )}
 
         {/* GPS Location Overlay (Task 1) */}
-        <div className="absolute bottom-2 left-2 z-20">
-          <div className="bg-gray-900/80 backdrop-blur-md border border-gray-700 p-2 rounded-lg shadow-xl flex flex-col min-w-[140px]">
-            <div className="flex items-center space-x-1 mb-1">
-              <MapPin className="w-3 h-3 text-blue-400" />
-              <span className="text-[8px] font-extrabold text-blue-400 uppercase tracking-widest">LIVE LOCATION</span>
+        <div className="absolute bottom-1.5 md:bottom-2 left-1.5 md:left-2 z-20">
+          <div className="bg-gray-900/80 backdrop-blur-md border border-gray-700 p-1.5 md:p-2 rounded-lg shadow-xl flex flex-col min-w-[100px] md:min-w-[140px]">
+            <div className="flex items-center space-x-1 mb-0.5 md:mb-1">
+              <MapPin className="w-2.5 h-2.5 md:w-3 md:h-3 text-blue-400" />
+              <span className="text-[7px] md:text-[8px] font-extrabold text-blue-400 uppercase tracking-widest">LIVE LOCATION</span>
             </div>
-            <span className="text-xs font-bold text-white truncate max-w-[150px]">{resolvedLocation || 'Location unavailable'}</span>
-            <div className="text-[9px] text-gray-400 font-mono mt-0.5 tracking-tighter">
+            <span className="text-[10px] md:text-xs font-bold text-white truncate max-w-[100px] md:max-w-[150px]">{resolvedLocation || 'Location unavailable'}</span>
+            <div className="text-[8px] md:text-[9px] text-gray-400 font-mono mt-0.5 tracking-tighter">
               {telemetry ? `${telemetry.gpsLat.toFixed(4)}N, ${telemetry.gpsLng.toFixed(4)}E` : '---'}
             </div>
           </div>
@@ -425,12 +425,13 @@ const VehicleTelemetry = () => {
       </div>
 
       {/* Footer explainers */}
-      <div className="flex items-center justify-between text-[9px] text-gray-400 font-medium z-10 border-t border-gray-50 pt-3">
+      <div className="flex items-center justify-between text-[8px] md:text-[9px] text-gray-400 font-medium z-10 border-t border-gray-50 pt-2 md:pt-3">
         <div className="flex items-center space-x-1">
-          <ShieldCheck className="w-3.5 h-3.5 text-lifelink-green" />
-          <span>Active Safety Monitoring Module Connected</span>
+          <ShieldCheck className="w-3 h-3 md:w-3.5 md:h-3.5 text-lifelink-green" />
+          <span className="hidden sm:inline">Active Safety Monitoring Module Connected</span>
+          <span className="sm:hidden">Safety Active</span>
         </div>
-        <span>Refresh rate: 60Hz</span>
+        <span>60Hz</span>
       </div>
     </div>
   );

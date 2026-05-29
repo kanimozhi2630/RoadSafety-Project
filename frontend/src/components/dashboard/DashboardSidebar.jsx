@@ -44,7 +44,7 @@ const DashboardSidebar = ({ activeTab, setActiveTab }) => {
   };
 
   return (
-    <aside className="w-64 border-r border-gray-100 bg-white flex flex-col h-[calc(100vh-64px)] justify-between sticky top-16 select-none z-30">
+    <aside className="w-64 border-r border-gray-100 bg-white flex flex-col h-screen lg:h-[calc(100vh-64px)] justify-between lg:sticky lg:top-16 select-none z-30 overflow-y-auto">
       {/* Upper Section: Navigation Links */}
       <div className="p-4 space-y-1">
         <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest px-3 block mb-3">Emergency Platform</span>

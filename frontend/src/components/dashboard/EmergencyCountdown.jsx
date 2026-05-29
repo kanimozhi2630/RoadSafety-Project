@@ -225,7 +225,7 @@ const EmergencyCountdown = () => {
   // ── TASK 1: Compact Square Emergency Modal ────────────────────────
   return (
     <div className={`fixed inset-0 z-50 flex items-center justify-center ${config.overlayBg} backdrop-blur-md ${config.animate} select-none`}>
-      <div className="bg-white border border-gray-200 rounded-2xl shadow-2xl w-[95vw] max-w-[700px] mx-4 p-5 flex flex-col items-center gap-3 max-h-[95vh] overflow-hidden">
+      <div className="bg-white border border-gray-200 rounded-2xl shadow-2xl w-[95vw] max-w-[700px] mx-4 p-4 md:p-5 flex flex-col items-center gap-2.5 md:gap-3 max-h-[95vh] overflow-y-auto">
         
         {/* Row 1: Header Badge */}
         <div className={`flex items-center space-x-2 border px-3 py-1.5 rounded-full ${config.headerBg} ${isCritical ? 'animate-bounce' : ''}`}>
@@ -249,8 +249,8 @@ const EmergencyCountdown = () => {
         </p>
 
         {/* Row 4: Countdown Circle */}
-        <div className={`relative flex items-center justify-center w-28 h-28 rounded-full border-4 ${config.countdownBg}`}>
-          <span className={`text-4xl font-black tracking-tighter ${config.countdownText}`}>
+        <div className={`relative flex items-center justify-center w-20 h-20 md:w-28 md:h-28 rounded-full border-4 ${config.countdownBg}`}>
+          <span className={`text-3xl md:text-4xl font-black tracking-tighter ${config.countdownText}`}>
             {emergencyTimer}s
           </span>
           <span className={`absolute bottom-1.5 text-[8px] font-extrabold uppercase tracking-widest ${isCritical ? 'text-red-400' : 'text-amber-400'}`}>
@@ -259,7 +259,7 @@ const EmergencyCountdown = () => {
         </div>
 
         {/* Row 5: Compact Status Row (Voicebot + Comms + Webcam) */}
-        <div className="grid grid-cols-3 gap-2 w-full max-w-md">
+        <div className="grid grid-cols-3 gap-1.5 md:gap-2 w-full max-w-md">
           {/* Voicebot */}
           <div className={`flex items-center gap-1.5 px-2.5 py-2 rounded-lg border text-[10px] font-bold ${voicebotActive ? 'bg-green-50 border-green-200 text-green-700' : 'bg-gray-50 border-gray-200 text-gray-500'}`}>
             <Mic className="w-3.5 h-3.5 flex-shrink-0" />
@@ -293,20 +293,20 @@ const EmergencyCountdown = () => {
         </div>
 
         {/* Row 6: Action Buttons */}
-        <div className="grid grid-cols-2 gap-3 w-full max-w-md pt-1">
+        <div className="grid grid-cols-2 gap-2 md:gap-3 w-full max-w-md pt-1">
           <button
             onClick={handleCancel}
             className="w-full bg-white hover:bg-gray-50 border border-gray-200 text-gray-700 py-2.5 px-3 rounded-xl text-xs font-bold transition-all flex items-center justify-center gap-1.5 shadow-sm active:scale-95"
           >
-            <ShieldCheck className="w-4 h-4 text-lifelink-green" />
-            <span>I'M OKAY — CANCEL SOS</span>
+            <ShieldCheck className="w-3.5 h-3.5 md:w-4 md:h-4 text-lifelink-green" />
+            <span className="text-[10px] md:text-xs">I'M OKAY — CANCEL</span>
           </button>
           <button
             onClick={handleDispatch}
             className={`w-full border py-2.5 px-3 rounded-xl text-xs font-bold transition-all flex items-center justify-center gap-1.5 shadow-md hover:shadow-lg active:scale-95 text-white ${config.dispatchBtnClass}`}
           >
-            <Send className="w-4 h-4 text-white" />
-            <span>DISPATCH SOS NOW</span>
+            <Send className="w-3.5 h-3.5 md:w-4 md:h-4 text-white" />
+            <span className="text-[10px] md:text-xs">DISPATCH SOS NOW</span>
           </button>
         </div>
 

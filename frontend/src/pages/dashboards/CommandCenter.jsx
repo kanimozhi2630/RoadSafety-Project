@@ -59,7 +59,7 @@ const CommandCenter = () => {
       <SimulationControlPanel />
 
       {/* 1. TOP METRICS ROW (8 cards) */}
-      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-4">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-8 gap-3 md:gap-4">
         {/* Speed */}
         <MetricCard 
           title="Vehicle Speed" 
@@ -155,7 +155,7 @@ const CommandCenter = () => {
       <div className="space-y-3">
         <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest px-1 block mb-1">DETAILED HARDWARE IoT CHANNELS</span>
         
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-8 gap-3 md:gap-4">
           <SensorCard 
             title="Brake Intensity" 
             value={`${telemetry.brakeIntensity}%`} 

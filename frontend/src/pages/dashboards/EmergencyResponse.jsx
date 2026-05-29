@@ -102,7 +102,7 @@ const EmergencyResponse = () => {
           <div className="space-y-2 w-full max-w-sm pt-2">
             <button
               onClick={handleManualSos}
-              className="w-full bg-lifelink-red hover:bg-red-700 text-white border border-red-700 py-3.5 px-4 rounded-2xl text-xs font-bold transition-all shadow-lg hover:shadow-xl active:scale-95 flex items-center justify-center gap-1.5 text-white"
+              className="w-full bg-lifelink-red hover:bg-red-700 text-white border border-red-700 py-3 md:py-3.5 px-4 rounded-2xl text-xs font-bold transition-all shadow-lg hover:shadow-xl active:scale-95 flex items-center justify-center gap-1.5 text-white"
             >
               <Send className="w-4 h-4 text-white" />
               <span>TEST MANUAL SOS TRIGGER</span>

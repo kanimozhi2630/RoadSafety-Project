@@ -43,7 +43,7 @@ app.get('/health', (req, res) => {
   res.json({
     status: 'healthy',
     timestamp: new Date(),
-    service: 'LifeLink 2.0 Backend Server'
+    service: 'IntelSOS Backend Server'
   });
 });
 
@@ -54,7 +54,7 @@ require('./sockets/telemetrySocket')(io);
 const PORT = process.env.PORT || 5000;
 server.listen(PORT, () => {
   console.log(`==================================================`);
-  console.log(`🚀 LifeLink 2.0 Backend running on port ${PORT}`);
+  console.log(`🚀 IntelSOS Backend running on port ${PORT}`);
   console.log(`📡 Socket.io Server online & listening`);
   console.log(`==================================================`);
 });
