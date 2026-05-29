@@ -1,0 +1,38 @@
+services:
+  # 1. Backend Web Service
+  - type: web
+    name: intelsos-backend
+    env: node
+    plan: free
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MONGODB_URI
+        sync: false # User will supply their MongoDB Atlas URI
+      - key: JWT_SECRET
+        generateValue: true # Render will automatically generate a cryptographically secure key
+
+  # 2. Frontend Static Site
+  - type: web
+    name: intelsos-frontend
+    env: static
+    plan: free
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    publishDir: dist
+    routes:
+      # Proxy /api requests to the Express Backend
+      - type: rewrite
+        source: /api/*
+        destination: https://intelsos-backend.onrender.com/api/*
+      # Proxy Socket.io polling & WebSockets requests to Express Backend
+      - type: rewrite
+        source: /socket.io/*
+        destination: https://intelsos-backend.onrender.com/socket.io/*
+      # Redirect fallback for SPA routing (React Router)
+      - type: rewrite
+        source: /*
+        destination: /index.html

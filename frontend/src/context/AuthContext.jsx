@@ -51,7 +51,7 @@ export const AuthProvider = ({ children }) => {
       localStorage.setItem('lifelink_token', res.data.token);
       setToken(res.data.token);
       setUser(res.data.user);
-      toast.success('Registration successful! Welcome to LifeLink.');
+      toast.success('Registration successful! Welcome to IntelSOS.');
       return true;
     } catch (err) {
       const errorMsg = err.response?.data?.msg || 'Registration failed. Please try again.';
@@ -88,7 +88,7 @@ export const AuthProvider = ({ children }) => {
       setUser(res.data);
       
       if (step === 3) {
-        toast.success('LifeLink Setup Completed Successfully!');
+        toast.success('IntelSOS Setup Completed Successfully!');
       } else {
         toast.success(`Step ${step} details saved successfully!`);
       }
@@ -119,7 +119,7 @@ export const AuthProvider = ({ children }) => {
     localStorage.removeItem('lifelink_token');
     setToken(null);
     setUser(null);
-    toast.success('Logged out successfully from LifeLink.');
+    toast.success('Logged out successfully from IntelSOS.');
   };
 
   return (

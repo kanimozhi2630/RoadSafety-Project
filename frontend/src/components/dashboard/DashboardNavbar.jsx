@@ -18,11 +18,9 @@ const DashboardNavbar = () => {
     <header className="h-16 border-b border-gray-100 bg-white px-6 flex items-center justify-between sticky top-0 z-40 shadow-sm">
       {/* Left: Brand name in dashboard */}
       <div className="flex items-center space-x-3">
-        <div className="bg-lifelink-greenLight p-2 rounded-lg text-lifelink-green">
-          <Shield className="w-5 h-5" />
-        </div>
+        <img src="/logo.png" alt="IntelSOS Logo" className="h-9 w-auto object-contain" />
         <div>
-          <span className="font-bold text-gray-900 tracking-tight text-lg">LifeLink</span>
+          <span className="font-bold text-gray-900 tracking-tight text-lg">IntelSOS</span>
           <span className="text-xs text-gray-400 font-medium ml-2 uppercase tracking-widest bg-gray-50 px-2 py-0.5 rounded border">V2.0 PRO</span>
         </div>
       </div>
@@ -131,7 +129,7 @@ const DashboardNavbar = () => {
                   className="w-full text-left px-4 py-2 text-xs text-red-600 hover:bg-red-50 flex items-center space-x-2 transition-colors"
                 >
                   <LogOut className="w-4 h-4 text-red-500" />
-                  <span className="font-medium">Logout from LifeLink</span>
+                  <span className="font-medium">Logout from IntelSOS</span>
                 </button>
               </div>
             </>

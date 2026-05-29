@@ -44,7 +44,7 @@ const RiskPrediction = () => {
           <AlertCircle className={`w-5 h-5 shrink-0 ${riskAssessment.level === 'DANGER' ? 'text-lifelink-red animate-bounce' : 'text-lifelink-amber animate-pulse'}`} />
           <div>
             <h4 className="text-xs font-bold uppercase tracking-wider leading-none mb-1">
-              Active Hazard Warnings Issued By LifeLink ML
+              Active Hazard Warnings Issued By IntelSOS ML
             </h4>
             <div className="text-[11px] font-semibold space-y-1 mt-1.5">
               {riskAssessment.warnings.map((warn, i) => (

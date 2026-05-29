@@ -49,7 +49,7 @@ const EmergencyResponse = () => {
             <Siren className="w-6 h-6 text-lifelink-red animate-spin shrink-0" />
             <div>
               <h4 className="text-xs font-bold uppercase tracking-wider leading-none mb-1">
-                LIFELINK CRITICAL ALERT ACTIVE — EMERGENCY RESCUE DEPLOYED
+                INTELSOS CRITICAL ALERT ACTIVE — EMERGENCY RESCUE DEPLOYED
               </h4>
               <p className="text-[10px] font-semibold text-red-600 mt-1">
                 SMS payloads dispatched. Ambulance units mapped to GPS coordinates. Interactive cockpit vitals recorder compiled.
@@ -75,7 +75,7 @@ const EmergencyResponse = () => {
 
           <div className="space-y-2">
             <h2 className="text-lg font-black text-gray-900 leading-none">
-              LifeLink Emergency System Standby
+              IntelSOS Emergency System Standby
             </h2>
             <p className="text-xs text-gray-400 font-semibold max-w-sm mx-auto leading-relaxed">
               Continuous monitoring active. Machine learning Isolation and Decision Trees are observing vehicle channels. No collision verified.

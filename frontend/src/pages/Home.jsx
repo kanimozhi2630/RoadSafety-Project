@@ -68,10 +68,8 @@ const Home = () => {
       {/* Sticky Header Navbar */}
       <header className="h-16 bg-white/80 backdrop-blur-md border-b border-gray-100 flex items-center justify-between px-6 md:px-12 sticky top-0 z-40 shadow-sm">
         <div className="flex items-center space-x-2.5">
-          <div className="bg-lifelink-green p-2 rounded-lg text-white">
-            <ShieldAlert className="w-5 h-5" />
-          </div>
-          <span className="font-extrabold text-xl text-gray-900 tracking-tight">LifeLink</span>
+          <img src="/logo.png" alt="IntelSOS Logo" className="h-9 w-auto object-contain" />
+          <span className="font-extrabold text-xl text-gray-900 tracking-tight">IntelSOS</span>
         </div>
 
         <nav className="hidden md:flex items-center space-x-8 text-xs font-bold text-gray-500 uppercase tracking-widest">
@@ -108,7 +106,7 @@ const Home = () => {
             </div>
             <h1 className="text-4xl md:text-5xl font-black text-gray-900 leading-none tracking-tight">
               The Golden Minute Saves Lives.<br />
-              <span className="text-lifelink-green">LifeLink Assures It.</span>
+              <span className="text-lifelink-green">IntelSOS Assures It.</span>
             </h1>
             <p className="text-sm md:text-base text-gray-500 max-w-lg leading-relaxed font-medium">
               An AI-powered emergency management ecosystem connecting vehicle sensors to paramedic trauma networks. Predicting risks, verifying impacts, and automating dispatches in milliseconds.
@@ -188,7 +186,7 @@ const Home = () => {
           <div className="text-center max-w-xl mx-auto space-y-3">
             <span className="text-[10px] font-bold text-lifelink-green uppercase tracking-widest">OPERATIONAL PROTOCOL</span>
             <h2 className="text-2xl md:text-3xl font-black text-gray-900 leading-none">
-              How LifeLink Automates Emergency Management
+              How IntelSOS Automates Emergency Management
             </h2>
             <p className="text-xs font-semibold text-gray-400 leading-relaxed">
               Step-by-step breakdown of active crash predictive assessments and dispatch logistics.
@@ -221,7 +219,7 @@ const Home = () => {
         <section id="about" className="bg-white border-t border-gray-100 py-20 px-6 md:px-12">
           <div className="max-w-7xl mx-auto space-y-12">
             <div className="text-center max-w-xl mx-auto space-y-3">
-              <span className="text-[10px] font-bold text-lifelink-green uppercase tracking-widest">ABOUT LIFELINK</span>
+              <span className="text-[10px] font-bold text-lifelink-green uppercase tracking-widest">ABOUT INTELSOS</span>
               <h2 className="text-2xl md:text-3xl font-black text-gray-900 leading-none">
                 Pioneering Intelligent Emergency Response
               </h2>
@@ -235,9 +233,9 @@ const Home = () => {
                 <div className="p-3 bg-green-50 text-lifelink-green rounded-xl w-fit">
                   <ShieldAlert className="w-6 h-6" />
                 </div>
-                <h3 className="text-base font-extrabold text-gray-900">What is LifeLink?</h3>
+                <h3 className="text-base font-extrabold text-gray-900">What is IntelSOS?</h3>
                 <p className="text-xs font-semibold text-gray-500 leading-relaxed">
-                  LifeLink is an AI-powered smart transportation emergency platform designed to predict hazards, detect collisions, and automate first-responder alerts. Synthesizing cutting-edge machine learning with immediate vehicle telemetry, LifeLink eliminates the critical delays that occur during transit crises.
+                  IntelSOS is an AI-powered smart transportation emergency platform designed to predict hazards, detect collisions, and automate first-responder alerts. Synthesizing cutting-edge machine learning with immediate vehicle telemetry, IntelSOS eliminates the critical delays that occur during transit crises.
                 </p>
               </div>
 
@@ -247,7 +245,7 @@ const Home = () => {
                 </div>
                 <h3 className="text-base font-extrabold text-gray-900">The Golden Minute</h3>
                 <p className="text-xs font-semibold text-gray-500 leading-relaxed">
-                  The "Golden Minute" refers to the initial 60 seconds directly following a high-impact crash. Medical intervention within this brief window decreases mortality rates exponentially. LifeLink’s high-speed collision validation initiates countdowns and broadcasts precise coordinates in milliseconds, preserving vital time.
+                  The "Golden Minute" refers to the initial 60 seconds directly following a high-impact crash. Medical intervention within this brief window decreases mortality rates exponentially. IntelSOS’s high-speed collision validation initiates countdowns and broadcasts precise coordinates in milliseconds, preserving vital time.
                 </p>
               </div>
 
@@ -279,14 +277,12 @@ const Home = () => {
       <footer className="bg-white border-t border-gray-100 py-12 px-6 md:px-12">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center space-x-2.5">
-            <div className="bg-lifelink-green p-1.5 rounded-lg text-white">
-              <ShieldAlert className="w-4 h-4" />
-            </div>
-            <span className="font-extrabold text-md text-gray-900 tracking-tight">LifeLink</span>
+            <img src="/logo.png" alt="IntelSOS Logo" className="h-8 w-auto object-contain" />
+            <span className="font-extrabold text-md text-gray-900 tracking-tight">IntelSOS</span>
           </div>
           
           <p className="text-xs font-bold text-gray-400 tracking-wide text-center">
-            © 2026 LifeLink Systems Inc. All rights reserved. Platform optimized for Google Chrome.
+            © 2026 IntelSOS Systems Inc. All rights reserved. Platform optimized for Google Chrome.
           </p>
 
           <div className="flex items-center space-x-4 text-[10px] font-bold text-gray-400 uppercase tracking-wider">

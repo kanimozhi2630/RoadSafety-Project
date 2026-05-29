@@ -743,6 +743,193 @@
         "High Driver Fatigue: Drowsiness indicators active. Pullover and rest."
       ],
       "timestamp": "2026-05-27T20:16:17.313Z"
+    },
+    {
+      "_id": "6a19b97f4b8dd311113db2c6",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 89,
+      "riskBreakdown": {
+        "rain": 100,
+        "fatigue": 100,
+        "overspeed": 84,
+        "roadStability": 56,
+        "steeringInstability": 94
+      },
+      "prediction": "HIGH ACCIDENT PROBABILITY",
+      "warnings": [
+        "Overspeeding: Please reduce velocity below 100 km/h.",
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest.",
+        "Hydroplane Danger: Wet conditions, slow down to maintain traction.",
+        "Steering Instability: Avoid sudden swerves or rapid lane changes.",
+        "Erratic Maneuver: Highly abnormal driving pattern flagged."
+      ],
+      "timestamp": "2026-05-29T16:06:23.939Z"
+    },
+    {
+      "_id": "6a19b98478cdf9ddfe0cd6f3",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 83,
+      "riskBreakdown": {
+        "rain": 100,
+        "fatigue": 100,
+        "overspeed": 100,
+        "roadStability": 52,
+        "steeringInstability": 36
+      },
+      "prediction": "HIGH ACCIDENT PROBABILITY",
+      "warnings": [
+        "Overspeeding: Please reduce velocity below 100 km/h.",
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest.",
+        "Hydroplane Danger: Wet conditions, slow down to maintain traction.",
+        "Erratic Maneuver: Highly abnormal driving pattern flagged."
+      ],
+      "timestamp": "2026-05-29T16:06:28.979Z"
+    },
+    {
+      "_id": "6a19b9890179feb1ae14d547",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 86,
+      "riskBreakdown": {
+        "rain": 100,
+        "fatigue": 100,
+        "overspeed": 100,
+        "roadStability": 64,
+        "steeringInstability": 40
+      },
+      "prediction": "HIGH ACCIDENT PROBABILITY",
+      "warnings": [
+        "Overspeeding: Please reduce velocity below 100 km/h.",
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest.",
+        "Hydroplane Danger: Wet conditions, slow down to maintain traction.",
+        "Road Hazard: Severe road surface vibrations detected.",
+        "Erratic Maneuver: Highly abnormal driving pattern flagged."
+      ],
+      "timestamp": "2026-05-29T16:06:33.941Z"
+    },
+    {
+      "_id": "6a19b991309788cbad7cebda",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 80,
+      "riskBreakdown": {
+        "rain": 100,
+        "fatigue": 100,
+        "overspeed": 100,
+        "roadStability": 46,
+        "steeringInstability": 21
+      },
+      "prediction": "HIGH ACCIDENT PROBABILITY",
+      "warnings": [
+        "Overspeeding: Please reduce velocity below 100 km/h.",
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest.",
+        "Hydroplane Danger: Wet conditions, slow down to maintain traction.",
+        "Erratic Maneuver: Highly abnormal driving pattern flagged."
+      ],
+      "timestamp": "2026-05-29T16:06:41.945Z"
+    },
+    {
+      "_id": "6a19b997b9a3263eecb786d9",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 84,
+      "riskBreakdown": {
+        "rain": 100,
+        "fatigue": 100,
+        "overspeed": 100,
+        "roadStability": 64,
+        "steeringInstability": 31
+      },
+      "prediction": "HIGH ACCIDENT PROBABILITY",
+      "warnings": [
+        "Overspeeding: Please reduce velocity below 100 km/h.",
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest.",
+        "Hydroplane Danger: Wet conditions, slow down to maintain traction.",
+        "Road Hazard: Severe road surface vibrations detected.",
+        "Erratic Maneuver: Highly abnormal driving pattern flagged."
+      ],
+      "timestamp": "2026-05-29T16:06:47.942Z"
+    },
+    {
+      "_id": "6a19b99d27986fa8e34e8d2b",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 83,
+      "riskBreakdown": {
+        "rain": 100,
+        "fatigue": 100,
+        "overspeed": 100,
+        "roadStability": 39,
+        "steeringInstability": 45
+      },
+      "prediction": "HIGH ACCIDENT PROBABILITY",
+      "warnings": [
+        "Overspeeding: Please reduce velocity below 100 km/h.",
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest.",
+        "Hydroplane Danger: Wet conditions, slow down to maintain traction.",
+        "Erratic Maneuver: Highly abnormal driving pattern flagged."
+      ],
+      "timestamp": "2026-05-29T16:06:53.951Z"
+    },
+    {
+      "_id": "6a19b9a334a6f84581b13191",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 93,
+      "riskBreakdown": {
+        "rain": 100,
+        "fatigue": 100,
+        "overspeed": 100,
+        "roadStability": 66,
+        "steeringInstability": 86
+      },
+      "prediction": "HIGH ACCIDENT PROBABILITY",
+      "warnings": [
+        "Overspeeding: Please reduce velocity below 100 km/h.",
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest.",
+        "Hydroplane Danger: Wet conditions, slow down to maintain traction.",
+        "Steering Instability: Avoid sudden swerves or rapid lane changes.",
+        "Road Hazard: Severe road surface vibrations detected.",
+        "Erratic Maneuver: Highly abnormal driving pattern flagged."
+      ],
+      "timestamp": "2026-05-29T16:06:59.957Z"
+    },
+    {
+      "_id": "6a19b9b26d28ca844204e855",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 94,
+      "riskBreakdown": {
+        "rain": 100,
+        "fatigue": 100,
+        "overspeed": 100,
+        "roadStability": 63,
+        "steeringInstability": 97
+      },
+      "prediction": "HIGH ACCIDENT PROBABILITY",
+      "warnings": [
+        "Overspeeding: Please reduce velocity below 100 km/h.",
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest.",
+        "Hydroplane Danger: Wet conditions, slow down to maintain traction.",
+        "Steering Instability: Avoid sudden swerves or rapid lane changes.",
+        "Road Hazard: Severe road surface vibrations detected.",
+        "Erratic Maneuver: Highly abnormal driving pattern flagged."
+      ],
+      "timestamp": "2026-05-29T16:07:14.937Z"
+    },
+    {
+      "_id": "6a19ba231c2fa40a56bb60a0",
+      "userId": "6a174e9e005069c7590f3bac",
+      "overallRisk": 79,
+      "riskBreakdown": {
+        "rain": 100,
+        "fatigue": 100,
+        "overspeed": 97,
+        "roadStability": 37,
+        "steeringInstability": 28
+      },
+      "prediction": "HIGH ACCIDENT PROBABILITY",
+      "warnings": [
+        "Overspeeding: Please reduce velocity below 100 km/h.",
+        "High Driver Fatigue: Drowsiness indicators active. Pullover and rest.",
+        "Hydroplane Danger: Wet conditions, slow down to maintain traction.",
+        "Erratic Maneuver: Highly abnormal driving pattern flagged."
+      ],
+      "timestamp": "2026-05-29T16:09:07.952Z"
     }
   ],
   "accidentLogs": [

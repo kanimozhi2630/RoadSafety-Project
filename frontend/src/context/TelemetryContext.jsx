@@ -235,7 +235,7 @@ export const TelemetryProvider = ({ children }) => {
         const url = `https://nominatim.openstreetmap.org/reverse?lat=${telemetry.gpsLat}&lon=${telemetry.gpsLng}&format=json`;
         const response = await fetch(url, {
           headers: {
-            'User-Agent': 'LifeLink-Ecosystem-Platform-v2'
+            'User-Agent': 'IntelSOS-Ecosystem-Platform-v2'
           }
         });
         const data = await response.json();

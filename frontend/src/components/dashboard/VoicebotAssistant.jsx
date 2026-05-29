@@ -12,7 +12,7 @@ const VoicebotAssistant = () => {
   const [bleeding, setBleeding] = useState(false);
 
   const prompts = [
-    "Operator: Standby. LifeLink Emergency Trauma Command center has established voice link. Rescue teams have your GPS.",
+    "Operator: Standby. IntelSOS Emergency Trauma Command center has established voice link. Rescue teams have your GPS.",
     "Operator: We detect severe deceleration forces. Do not move your neck or spine. Keep breathing slowly.",
     "Operator: Emergency SMS alerts have successfully reached your contacts list.",
     "Operator: Ambulance is currently mapping routing. If you can hear me, please blink twice or tap the screen.",

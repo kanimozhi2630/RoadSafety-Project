@@ -34,10 +34,8 @@ const Login = () => {
 
         {/* Top Branding logo */}
         <div className="flex items-center space-x-2.5 z-10">
-          <div className="bg-lifelink-green p-2.5 rounded-xl text-white shadow-lg shadow-green-700/20">
-            <ShieldAlert className="w-5 h-5" />
-          </div>
-          <span className="font-extrabold text-xl tracking-tight">LifeLink</span>
+          <img src="/logo.png" alt="IntelSOS Logo" className="h-9 w-auto object-contain bg-white/10 p-1 rounded-lg border border-white/10" />
+          <span className="font-extrabold text-xl tracking-tight">IntelSOS</span>
         </div>
 
         {/* Center Taglines */}
@@ -50,13 +48,13 @@ const Login = () => {
             Protecting Lives on Every Road.
           </h2>
           <p className="text-xs font-semibold text-gray-400 leading-relaxed">
-            LifeLink bridges the gap between mechanical sensor anomalies and paramedics networks to automate collision dispatches.
+            IntelSOS bridges the gap between mechanical sensor anomalies and paramedics networks to automate collision dispatches.
           </p>
         </div>
 
         {/* Bottom footer credit */}
         <p className="text-[10px] font-bold text-gray-500 uppercase tracking-wider z-10">
-          © 2026 LifeLink Systems Inc.
+          © 2026 IntelSOS Systems Inc.
         </p>
       </div>
 
@@ -66,7 +64,7 @@ const Login = () => {
           {/* Form Header */}
           <div className="space-y-2 mb-8">
             <h1 className="text-2xl font-black text-gray-900 tracking-tight leading-none">
-              Welcome back to LifeLink
+              Welcome back to IntelSOS
             </h1>
             <p className="text-xs font-semibold text-gray-400 leading-none">
               Access your driver cockpit monitoring panel.

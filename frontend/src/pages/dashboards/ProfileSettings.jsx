@@ -187,7 +187,7 @@ const ProfileSettings = () => {
               </div>
 
               <h2 className="text-base font-extrabold text-gray-900 mt-4 leading-none">{name || 'Driver Profile'}</h2>
-              <p className="text-[10px] font-bold text-lifelink-green uppercase tracking-widest mt-1">LifeLink Certified Driver</p>
+              <p className="text-[10px] font-bold text-lifelink-green uppercase tracking-widest mt-1">IntelSOS Certified Driver</p>
               
               <div className="w-full border-t border-gray-100 my-4" />
 

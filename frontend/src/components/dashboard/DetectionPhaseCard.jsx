@@ -54,7 +54,7 @@ const DetectionPhaseCard = () => {
             Isolator Target Logs:
           </span>
           <div className="bg-gray-900 rounded-lg p-3 text-[10px] font-mono text-green-400 overflow-y-auto max-h-[110px] space-y-1 scrollbar-thin">
-            <p className="text-gray-500 font-semibold">[LifeLink ML Kernel Online]</p>
+            <p className="text-gray-500 font-semibold">[IntelSOS ML Kernel Online]</p>
             {isolationForestResult?.features ? (
               isolationForestResult.features.map((feature, i) => (
                 <p key={i} className={isolationForestResult.status === 'ABNORMAL' ? 'text-red-400' : 'text-green-400'}>

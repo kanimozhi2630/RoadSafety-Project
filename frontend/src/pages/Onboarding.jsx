@@ -123,10 +123,8 @@ const Onboarding = () => {
     <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-6 select-none relative">
       {/* Top logo */}
       <div className="flex items-center space-x-2.5 mb-8">
-        <div className="bg-lifelink-green p-2 rounded-lg text-white">
-          <ShieldAlert className="w-5 h-5" />
-        </div>
-        <span className="font-extrabold text-xl text-gray-900 tracking-tight">LifeLink</span>
+        <img src="/logo.png" alt="IntelSOS Logo" className="h-9 w-auto object-contain" />
+        <span className="font-extrabold text-xl text-gray-900 tracking-tight">IntelSOS</span>
       </div>
 
       {/* Main onboarding card container */}
@@ -512,7 +510,7 @@ const Onboarding = () => {
             <div className="text-center space-y-2">
               <h2 className="text-2xl font-black text-gray-900 tracking-tight leading-none flex items-center gap-1 justify-center">
                 <Sparkles className="w-6 h-6 text-lifelink-amber fill-current" />
-                LifeLink Interface Active
+                IntelSOS Interface Active
               </h2>
               <p className="text-xs font-semibold text-gray-400 max-w-xs mx-auto leading-relaxed">
                 Authentication and physical telemetry nodes synchronized. Redirecting to driver cockpit cockpit...
